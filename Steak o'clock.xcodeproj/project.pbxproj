@@ -13,6 +13,9 @@
 		15DB109928036EE400418438 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15DB109728036EE400418438 /* Main.storyboard */; };
 		15DB109B28036EE700418438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15DB109A28036EE700418438 /* Assets.xcassets */; };
 		15DB109E28036EE700418438 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15DB109C28036EE700418438 /* LaunchScreen.storyboard */; };
+		15DB10A62803718900418438 /* CookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DB10A52803718900418438 /* CookingViewController.swift */; };
+		15DB10A92803734F00418438 /* billy-mays-but-im-not-done-yet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 15DB10A72803734E00418438 /* billy-mays-but-im-not-done-yet.mp3 */; };
+		15DB10AA2803734F00418438 /* Anakin What have i done Sound Effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 15DB10A82803734E00418438 /* Anakin What have i done Sound Effect.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		15DB109A28036EE700418438 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15DB109D28036EE700418438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15DB109F28036EE700418438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15DB10A52803718900418438 /* CookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingViewController.swift; sourceTree = "<group>"; };
+		15DB10A72803734E00418438 /* billy-mays-but-im-not-done-yet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "billy-mays-but-im-not-done-yet.mp3"; sourceTree = "<group>"; };
+		15DB10A82803734E00418438 /* Anakin What have i done Sound Effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Anakin What have i done Sound Effect.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +65,13 @@
 				15DB109128036EE400418438 /* AppDelegate.swift */,
 				15DB109328036EE400418438 /* SceneDelegate.swift */,
 				15DB109528036EE400418438 /* ViewController.swift */,
+				15DB10A52803718900418438 /* CookingViewController.swift */,
 				15DB109728036EE400418438 /* Main.storyboard */,
 				15DB109A28036EE700418438 /* Assets.xcassets */,
 				15DB109C28036EE700418438 /* LaunchScreen.storyboard */,
 				15DB109F28036EE700418438 /* Info.plist */,
+				15DB10A82803734E00418438 /* Anakin What have i done Sound Effect.mp3 */,
+				15DB10A72803734E00418438 /* billy-mays-but-im-not-done-yet.mp3 */,
 			);
 			path = "Steak o'clock";
 			sourceTree = "<group>";
@@ -125,8 +134,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15DB10AA2803734F00418438 /* Anakin What have i done Sound Effect.mp3 in Resources */,
 				15DB109E28036EE700418438 /* LaunchScreen.storyboard in Resources */,
 				15DB109B28036EE700418438 /* Assets.xcassets in Resources */,
+				15DB10A92803734F00418438 /* billy-mays-but-im-not-done-yet.mp3 in Resources */,
 				15DB109928036EE400418438 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +152,7 @@
 				15DB109628036EE400418438 /* ViewController.swift in Sources */,
 				15DB109228036EE400418438 /* AppDelegate.swift in Sources */,
 				15DB109428036EE400418438 /* SceneDelegate.swift in Sources */,
+				15DB10A62803718900418438 /* CookingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
