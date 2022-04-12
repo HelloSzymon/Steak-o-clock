@@ -25,9 +25,28 @@
                                             <constraint firstAttribute="height" constant="183" id="hbg-Hi-zQP"/>
                                         </constraints>
                                     </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="uV8-nM-iFu" userLabel="appTitle">
+                                        <rect key="frame" x="18" y="15" width="374" height="141"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="141" id="v80-54-kXy"/>
+                                        </constraints>
+                                        <attributedString key="attributedText">
+                                            <fragment content="It's steak o'clock!">
+                                                <attributes>
+                                                    <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <font key="NSFont" size="60" name="SignPainter-HouseScript"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstItem="uV8-nM-iFu" firstAttribute="leading" secondItem="1Y0-Nb-oiK" secondAttribute="leading" constant="18" id="DWX-pK-ls3"/>
+                                    <constraint firstItem="uV8-nM-iFu" firstAttribute="centerX" secondItem="yq5-Z6-j8G" secondAttribute="centerX" id="ODy-Hk-Ppy"/>
                                     <constraint firstItem="yq5-Z6-j8G" firstAttribute="leading" secondItem="1Y0-Nb-oiK" secondAttribute="leadingMargin" id="U1x-XQ-Axx"/>
+                                    <constraint firstItem="uV8-nM-iFu" firstAttribute="top" secondItem="1Y0-Nb-oiK" secondAttribute="topMargin" id="lZM-ge-UoL"/>
                                     <constraint firstItem="yq5-Z6-j8G" firstAttribute="top" secondItem="1Y0-Nb-oiK" secondAttribute="top" constant="146" id="rNk-0k-apg"/>
                                     <constraint firstItem="yq5-Z6-j8G" firstAttribute="centerX" secondItem="1Y0-Nb-oiK" secondAttribute="centerX" id="rvc-pL-TUO"/>
                                 </constraints>
@@ -69,6 +88,9 @@
                             <constraint firstItem="1Y0-Nb-oiK" firstAttribute="leading" secondItem="fSb-63-kaf" secondAttribute="leading" constant="2" id="j2Y-HI-SiJ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="appTitle" destination="uV8-nM-iFu" id="PrJ-Vd-V1N"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ety-HF-js8" sceneMemberID="firstResponder"/>
             </objects>
