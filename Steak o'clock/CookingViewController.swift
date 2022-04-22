@@ -17,7 +17,7 @@ class CookingViewController: UIViewController {
     // Creating constants and variables
     
     
-    let steakTimes = ["Rare": 6, "Medium" : 180, "Well-done": 240]
+    let steakTimes = ["Rare": 90, "Medium" : 180, "Well-done": 240]
     var timer = Timer()
     var player: AVAudioPlayer!
     var totalTime = 0
